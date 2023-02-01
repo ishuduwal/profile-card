@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white;
+    padding: 150px;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    background: rgba(16, 16, 16, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: (0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(16, 16, 16, 0.36);
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+.img{
+    height: 110px;
+    width: 90px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 20px;
+}
+.frontend{
+    font-size: 12px;
+    color: #71808a;
+}
+.fa-brands{
+    padding:10px;
+    color: black;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials>div{
+    width: 30px;
+    height: 30px;
+    transition: transform(0.1s);
+}
+.socials>div:hover{
+    transform: scale(1.4);
+}
+.location{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin: 5px;
+}
+.bkt>a{
+    color: black;  
+}
+button{
+    justify-content: center;
+    font-weight: bold;
+    height: 40px;
+    width:100px;
+    color: #000;
+    border-radius: 12px;
+    border: none;
+    background:#3dcfd3;
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+}
+.material-symbols-outlined{
+    font-size: 19px;
+}
+.skill h3{
+    font-size: 15px;
+}
+.skills{
+    margin: 5px;
+}
+.skills span{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 13px;
+    margin: 8px 3px;
+    cursor: pointer;
+    border-radius: 3px;
+}
